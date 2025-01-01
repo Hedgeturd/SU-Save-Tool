@@ -1,6 +1,6 @@
 namespace SonicUnleashedFCOConv {
     public static class Platform {
-        public static bool PS3 = false;
+        static bool PS3 = false;
 
         public static void ReadSave(string path) {
             FileStream fileStream = new FileStream(path, FileMode.Open, FileAccess.Read);
